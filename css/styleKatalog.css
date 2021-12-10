@@ -39,3 +39,13 @@ nav{
 #sp{
     padding-right: 25px;
 }
+
+img {
+    cursor: pointer;
+    width: 230px;
+    height: 300px;
+}
+
+i {
+    color:#4D8581;
+}
