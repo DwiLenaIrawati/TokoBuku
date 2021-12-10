@@ -1,1 +1,26 @@
 /* login */
+@font-face {
+    font-family: "Galgony";
+    src: url('../font/Galgony.ttf');
+}
+body {
+    
+    color: #fff;
+    background-image: url('../asset/login.png');
+    background-size: cover;    
+}
+#login{
+    
+    margin: 150px 350px 100px 350px;
+    background-color: #4d85819a;
+}
+#login #isi{
+    padding: 50px 160x 160x 16px;
+}
+#btn{
+    margin: 10px 530px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+#title{
+    font-family: "Galgony";
+}
