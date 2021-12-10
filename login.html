@@ -5,7 +5,7 @@
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
         <link rel="stylesheet" href="css/styleLogin.css">
-        <link rel="stylesheet" href="js/login.js">
+        <script type="text/javascript" src="js/login.js"></script>
     </head>
     <body>
        <div id="login">
@@ -18,11 +18,11 @@
                         </div>
                         <p>
                             <label>Email</label>
-                            <input class="w3-input w3-border w3-round" type="email">
+                            <input class="w3-input w3-border w3-round" type="email" id="email">
                         </p>
                         <p>
                             <label>Password</label>
-                            <input class="w3-input w3-border w3-round" type="password">
+                            <input class="w3-input w3-border w3-round" type="password" id="password">
                         </p>
                         <div id="btn">
                         
@@ -32,7 +32,7 @@
                                     
                                 </div> -->
                               
-                            <p><button class="w3-button w3-white w3-round" type="submit" onclick="document.location='katalog.html'">Login</button></p>
+                            <p><button class="w3-button w3-white w3-round" type="submit" onclick="login()">Login</button></p>
                         </div>
                     </div>
                    
