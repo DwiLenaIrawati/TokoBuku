@@ -19,23 +19,51 @@ nav{
 }
 #header{
     background-color: #4D8581;
+    height: 60px;
 }
 #title{
     font-family: "Galgony";
     color: ivory;
-    
+    margin-left: 25px;
 }
 #flag{
-    margin: 0px 0px 0px 850px;
+    margin: 0px 0px 0px 950px;
     margin-top: 15px;
 }
+/* header2 */
 #header2{
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     background-color: #DBCBBE;
     color:#4D8581;
-    
+    height: 50px;
 }
+
+#searchbar{
+    font-size: 13px;
+    width: auto;
+}
+
+#header2 #user{
+    margin-left: 320px;
+}
+
+input{
+    padding-left: 300px;
+    border-radius:10px;
+    border-color: #4D8581;
+}
+
+#search{
+    margin-left: 260px;
+}
+
+#profil{
+    color: #4D8581;
+    padding-left: 10px;
+    font-size: large;
+}
+
 #sp{
     padding-right: 25px;
 }
