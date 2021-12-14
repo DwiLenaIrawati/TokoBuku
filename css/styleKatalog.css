@@ -29,12 +29,36 @@ nav{
     margin: 0px 0px 0px 850px;
     margin-top: 15px;
 }
+/* header2 */
 #header2{
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #DBCBBE;
     color:#4D8581;
     
+}
+
+#header2 .searchbar{
+ margin-left: 100px;
+ font-size: 13px;
+ width: 150px;
+ text-align: center;
+}
+#header2 #user{
+    margin-left: 300px;
+}
+input{
+    padding-left: 300px;
+    border-radius:10px;
+    border-color: #4D8581;
+}
+#search{
+    padding-left: 100px;
+}
+#profil{
+    color: #4D8581;
+    padding-left: 10px;
+    font-size: x-large;
 }
 #sp{
     padding-right: 25px;
