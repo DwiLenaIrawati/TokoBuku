@@ -32,38 +32,56 @@ nav{
 }
 /* header2 */
 #header2{
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 10px;
     background-color: #DBCBBE;
     color:#4D8581;
-    height: 50px;
+    
 }
 
-#searchbar{
-    font-size: 13px;
-    width: auto;
+#header2 .searchbar{
+ margin-left: 100px;
+ font-size: 13px;
+ width: 150px;
+ text-align: center;
 }
-
 #header2 #user{
-    margin-left: 320px;
+    margin-left: 200px;
 }
-
 input{
-    padding-left: 300px;
+    width: 500px;
     border-radius:10px;
     border-color: #4D8581;
 }
-
 #search{
-    margin-left: 260px;
+    padding-left: 80px;
 }
-
 #profil{
     color: #4D8581;
     padding-left: 10px;
-    font-size: large;
+    font-size: x-large;
+    margin-left: 100px;
 }
-
+.sort{
+   text-decoration: none;
+   font-size:large;
+   margin-left: 30px;
+}
+#keranjang{
+    margin-left: 70px;
+}
+.floating-button{
+    background: #4D8581;
+    color: #FFFFFF;
+    padding: 3px 12px;
+    border-radius: 20px;
+    position: fixed;
+    text-decoration: none;
+    font-size: 25px;
+    box-shadow: 1px 3px 5px #ccc;
+    bottom: 20px;
+    right: 20px;
+}
 #sp{
     padding-right: 25px;
 }
