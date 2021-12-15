@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "Galgony";
+    src: url('../font/Galgony.ttf');
+}
+nav{
+   
+}
+
+body{
+    background-color: #EEEBE8;
+}
+
+.link {
+    transition: 0.3s ease;
+    color: #ffffffb0;
+    font-size: 20px;
+    padding: 20px 0;
+    margin: 0 20px;
+    text-decoration: none;
+  }
+.link:hover {
+    color: floralwhite;
+    padding: 1px 0; 
+}
+#header{
+    background-color: #4D8581;
+    height: 60px;
+}
+#title{
+    font-family: "Galgony";
+    color: ivory;
+    margin-left: 25px;
+}
+#flag{
+    margin: 0px 0px 0px 1000px;
+    margin-top: 15px;
+}
+/* header2 */
+#header2{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #DBCBBE;
+    color:#4D8581;
+    height: 50px;
+}
+
+#iconKeranjang{
+    font-size: 25px;
+}
+
+#keranjangBelanja {
+    font-size: 20px;
+    margin-left: 6px;
+}
+
+#header2 #user{
+    margin-left: 1210px;
+}
+
+input{
+    padding-left: 300px;
+    border-radius:10px;
+    border-color: #4D8581;
+}
+
+#profil{
+    color: #4D8581;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#sp{
+    padding-right: 25px;
+}
+
+img {
+    cursor: pointer;
+    width: 230px;
+    height: 300px;
+}
+
+i {
+    color:#4D8581;
+}
+
+#kolom{
+    background-color: white;
+    color: #4D8581;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#hargaSatuan{
+    margin-left: 400px;
+}
+
+#kuantitas{
+    margin-left: 100px;
+}
+
+#totalHarga{
+    margin-left: 100px;
+}
+
+#aksi{
+    margin-left: 100px;
+}
+
+#content{
+    background-color: white;
+    color: #4D8581;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#judulBuku{
+    font-weight: bold;
+}
+
+#hargaBuku{
+    margin-left: 140px;
+}
+
+#jumlahBuku{
+    margin-left: 100px;
+}
+
+#totalHargaBuku{
+    margin-left: 210px;
+}
+
+#tempatSampah{
+    margin-left: 105px;
+    font-size: 40px;
+}
+
+#foot{
+    background-color: white;
+    color: #4D8581;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#total{
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#totalProduk{
+    margin-left: 600px;
+}
+
+#totalRp{
+    margin-left: 50px;
+}
+
+#btnCheckout{
+    margin-left: 50px;
+}
