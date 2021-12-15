@@ -12,11 +12,17 @@ function login(){
             location.replace('katalog.html'); 
             }
         else{
-            alert("password atau username anda salah!");
+            var str = "password atau username anda salah!"
+            // alert("password atau username anda salah!");
+            document.getElementById("pesan").innerHTML = str;
+            document.getElementById("pesan").style.backgroundColor = "white";
         } 
     }
     else{
-        alert("password atau username tidak boleh kosong!");
+        var str = "password atau username tidak boleh kosong!" 
+        //alert("password atau username tidak boleh kosong!");
+        document.getElementById("pesan").innerHTML = str;
+        document.getElementById("pesan").style.backgroundColor = "white";
     }
     // if (done==0) { alert("Invalid login!"); }
     }
