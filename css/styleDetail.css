@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Galgony";
+    src: url('../font/Galgony.ttf');
+}
+nav{
+   
+}
+.link {
+    transition: 0.3s ease;
+    color: #ffffffb0;
+    font-size: 20px;
+    padding: 20px 0;
+    margin: 0 20px;
+    text-decoration: none;
+  }
+.link:hover {
+    color: floralwhite;
+    padding: 1px 0; 
+}
+#header{
+    background-color: #4D8581;
+}
+#title{
+    font-family: "Galgony";
+    color: ivory;
+    
+}
+#flag{
+    margin: 0px 0px 0px 850px;
+    margin-top: 15px;
+}
+#header2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #DBCBBE;
+    color:#4D8581;
+    
+}
+#sp{
+    padding-right: 25px;
+}
+#search{
+    padding-right: 200px;
+    margin: 10px;
+}
