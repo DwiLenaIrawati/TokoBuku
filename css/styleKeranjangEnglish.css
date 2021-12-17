@@ -2,11 +2,9 @@
     font-family: "Galgony";
     src: url('../font/Galgony.ttf');
 }
-
-nav{
-   
+body{
+   background-color: #EEEBE8;
 }
-
 /* Header1 */
 .link {
     transition: 0.3s ease;
@@ -16,49 +14,41 @@ nav{
     margin: 0 20px;
     text-decoration: none;
   }
-
 .link:hover {
     color: floralwhite;
     padding: 1px 0; 
 }
-
 #header{
     background-color: #4D8581;
 }
-
 #title{
     font-family: "Galgony";
     color: ivory;
     
 }
 #flag{
-    margin: 0px 0px 0px 930px;
+    margin: 0px 0px 0px 841px;
     margin-top: 15px;
-}
+    
 
+}
 /* header2 */
 #header2{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #DBCBBE;
-    color:#4D8581; 
+    color:#4D8581;
+    
 }
-
 #header2 #user{
-    margin-left: 1077px;
-}
-
-input{
-    padding-left: 300px;
-    border-radius:10px;
-    border-color: #4D8581;
+    margin-left: 200px;
 }
 
 #profil{
     color: #4D8581;
     padding-left: 10px;
     font-size: large;
-    margin-left: 3px;
+    margin-left: 861px;
 }
 
 #keranjang{

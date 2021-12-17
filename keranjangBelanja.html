@@ -4,6 +4,7 @@
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
         <link rel="stylesheet" href="css/styleKeranjang.css">
+        
         <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="js/numericBox.js"></script>
     </head>
@@ -12,19 +13,19 @@
         <div id="header">
             <div class="w3-container">
                 <div class="w3-container w3-cell">
-                    <h1 id="title">Mica's Book</h1>	
+                    <a  href="katalogIndo.html"style="text-decoration: none"><h1 id="title">Mica's Book</h1></a>
                 </div>
                 <div class="w3-container w3-cell">
                     <nav id="flag">
                         <div class="w3-cell">
                             <div id="nav" class="w3-bar w3-bar-item" >
-                                <a class="link" href="#">
+                                <a class="link" href="keranjangBelanja-english.html">
                                     <img src="asset/England.png" style="width: 35px;height: 20px;">
                                 </a>
-                                <a class="link"href="#">
+                                <a class="link"href="keranjangBelanja.html">
                                     <img src="asset/Indonesia.jpg" style="width: 35px;height: 20px;">
                                 </a>
-                                <a class="link"href="#">
+                                <a class="link"href="keranjangBelanja-english.html">
                                     <img src="asset/usa.jpg" style="width: 35px;height: 20px;">
                                 </a>
                                 
@@ -41,14 +42,13 @@
                     <nav id="nav2" class="">
                         <a id="iconKeranjang"><i class="fas fa-shopping-cart"></i></a>
                         <a id="keranjangBelanja">Keranjang Belanja</a>
-                        <a id="user" class="w3-bar-item"><i class="fas fa-user fa-2x"></i></a>
-                        <a id="profil">Hana</a>
+                        <a id="profil">Selamat Datang,Hana</a>
                     </nav>		
                 </div>
             </div>
         </div>
 
-        <div style="margin-left:5%; width: 90%;" id="kolom">
+        <div style="" id="kolom">
             <nav>
                 <a class="w3-padding"><input type="checkbox">Produk</a>
                 <a id="hargaSatuan">Harga Satuan</a>
@@ -58,7 +58,7 @@
             </nav>
         </div>
 
-        <div style="margin-left:5%; width: 90%;" id="content">
+        <div style="" id="content">
             <nav>
                 <a class="w3-padding"><input type="checkbox"><img src="asset/Educated.jpg"></a>
                 <a id="judulBuku">Educated</a>
@@ -69,12 +69,12 @@
             </nav>
         </div>
 
-        <div style="margin-left:5%; width: 90%;" id="foot">
+        <div style="" id="foot">
             <nav>
                 <a id="total">TOTAL</a>
                 <a id="totalProduk">Total (1 produk)</a>
                 <a id="totalRp">Rp 100.000</a>
-                <a id="btnCheckout"><button style="background-color: red; color: white; border-color: red;">Checkout</button></a>
+                <a id="btnCheckout"><button style="background-color: red; color: white; border-color: red;"onClick="location.replace(pembayaran.html)">Checkout</button></a>
             </nav>
         </div>
     </body>
