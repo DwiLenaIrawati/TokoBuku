@@ -6,6 +6,13 @@
         <link rel="stylesheet" href="css/styleKatalog.css">
     </head>
     <body>
+         <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+        <link rel="stylesheet" href="css/styleKatalog.css">
+    </head>
+    <body>
         <!-- header1 -->
         <div id="header">
             <div class="w3-container">
@@ -57,7 +64,12 @@
                 </div>
             </div>
         </div>
-
+        
+        <div class="w3-content w3-section" >
+            <img class="mySlides w3-animate-left" src="asset/1.png" style="width:100%">
+            <img class="mySlides w3-animate-left" src="asset/2.png" style="width:100%">
+            <img class="mySlides w3-animate-left" src="asset/3.png" style="width:100%">
+        </div>
         <div style="margin-left:10%; width: 85%;" class="">
             <div class="w3-row-padding w3-padding-16 w3-center">
                 <!-- Column 1 -->
@@ -141,5 +153,21 @@
             </div>
         </div>
     </body>
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2500);    
+        }
+        </script>
 </html>
 

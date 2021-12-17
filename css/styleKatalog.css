@@ -2,8 +2,8 @@
     font-family: "Galgony";
     src: url('../font/Galgony.ttf');
 }
-nav{
-   
+body{
+   background-color: #EEEBE8;
 }
 /* Header1 */
 .link {
