@@ -93,3 +93,8 @@ img {
 i {
     color:#4D8581;
 }
+.sort:hover {
+    color: ivory;
+  border-bottom: 1px solid #ffffff;
+  padding: 1px 0; 
+}
