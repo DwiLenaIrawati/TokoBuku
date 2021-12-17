@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+        <link rel="stylesheet" href="css/styleKatalog.css">
+        <link rel="stylesheet" href="css/stylePembayaran.css">
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+    </head>
+    
+    <body>
+        <!-- header1 -->
+        <div id="header">
+            <div class="w3-container">
+                <div class="w3-container w3-cell">
+                     <a href="katalog.html"style="text-decoration: none"><h1 id="title">Mica's Book</h1></a>
+                </div>
+                <div class="w3-container w3-cell">
+                    <nav id="flag">
+                        <div class="w3-cell">
+                            <div id="nav" class="w3-bar w3-bar-item" >
+                                <a class="link" href="#">
+                                    <img src="asset/England.png" style="width: 35px;height: 20px;">
+                                </a>
+                                <a class="link"href="#">
+                                    <img src="asset/Indonesia.jpg" style="width: 35px;height: 20px;">
+                                </a>
+                                <a class="link"href="#">
+                                    <img src="asset/usa.jpg" style="width: 35px;height: 20px;">
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </nav>		
+                </div>
+            </div>
+        </div>
+        <!-- header2 -->
+        <div id="header2">
+            <div class="w3-container">
+                <div class="w3-container w3-cell">
+                    <nav id="nav2" class="">
+                        
+                       <a><i class="fas fa-credit-card fa-2x"></i></a>
+                       <a id="judulPembayaran">Pembayaran</a>
+                        
+                        <a id="profil">Selamat Datang, Hana</a>
+                        
+                    </nav>		
+                </div>
+                <div>
+                    <a href="faq-english.html" class="floating-button">
+                        FAQ
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="pembayaran" >
+            <div id="container">
+                <div class="w3-row w3-container" id="pin">
+                    <div class="w3-col m2 w3-center">
+                        <img src="asset/bca.png" style="width: 150px;height: 150px;">
+
+                    </div>
+                    <div class="w3-col m3 ">
+                        <br>
+                        <a class="namaBank"><p >Bank Central Asia</p></a>
+                        <a id="pin">673631217398 </a>
+                        <button class="w3-margin-top w3-button w3-padding-small salin">Salin</button>
+                        
+                    </div>
+                    
+                </div>
+                <div class="w3-row w3-container" id="btn">
+                    <div class="w3-col m3 " style="margin-bottom: 50px;">
+                        <br>
+                        <button class="w3-margin-top w3-button w3-padding-small btn-bayar">Sudah Melakukan Pembayaran</button>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+        </div>
+        <script>
+            document.querySelector(".salin").addEventListener("click", function() {
+                Swal.fire({
+                    title: "Pin Telah Disalin",
+                    position: "center",
+                    background: "white",
+                    animation: true,
+                    allowOutsideClick: false,
+                    allowEscapeKey: false,
+                    allowEnterKey: false,
+                    showConfirmButton: false,
+                    showCancelButton: false,
+                    timer: 1000
+                });
+            });
+           
+            document.querySelector(".btn-bayar").addEventListener("click", function() {
+                Swal.fire({
+                    title: "Pesanan Anda Sedang Diproses",
+                    position: "center",
+                    background: "white",
+                    allowOutsideClick: false,
+                    allowEscapeKey: false,
+                    allowEnterKey: false,
+                    showConfirmButton: false,
+                    showCancelButton: false,
+                    timer: 2000
+                });
+                
+                //location.replace('katalogIndo.html'); 
+            });
+        </script>
+</html>

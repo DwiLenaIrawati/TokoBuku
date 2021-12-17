@@ -12,7 +12,7 @@
         <div id="header">
             <div class="w3-container">
                 <div class="w3-container w3-cell">
-                    <a href="katalog.html"style="text-decoration: none"><h1 id="title">Mica's Book</h1></a>
+                     <a href="katalog.html"style="text-decoration: none"><h1 id="title">Mica's Book</h1></a>
                 </div>
                 <div class="w3-container w3-cell">
                     <nav id="flag">
@@ -40,15 +40,10 @@
                 <div class="w3-container w3-cell">
                     <nav id="nav2" class="">
                         
-                        <a class=""><i class="fas fa-sort-alpha-down fa-2x"></i></a>
-                        <a  href="sortbyauthor.html" class="sort">By Author</a>
-                        <a class="sort" href="sortbytitle.html">By Title</a>
-                        <a  id="search"><i class="fas fa-search"></i></a>
-                        <a id="searchbar" ><input type="text" placeholder="  Author/Title/ISBN"> </a>
-                        <a id="go"><button class="w3-button w3-tiny w3-teal w3-round-large">Go</button></a>
-                        <a id="keranjang" href="#"><i class="fas fa-shopping-cart fa-2x"></i></a>
+                       <a><i class="fas fa-credit-card fa-2x"></i></a>
+                       <a id="judulPembayaran">Pembayaran</a>
                         
-                        <a id="profil">Welcome, Hana</a>
+                        <a id="profil">Selamat Datang, Hana</a>
                         
                     </nav>		
                 </div>
@@ -62,14 +57,85 @@
         
         <div id="pembayaran" >
             <div id="container">
+                <div class="w3-row w3-container" id="alamat">
+                    <div class="w3-col m1">
+                        <i class="fas fa-map-marker-alt fa-4x" style="margin:30px 0px 0px 30px"></i>
+                    </div>
+                    <div class="w3-col m5">
+                        <p class="label">Alamat Pengiriman</p>
+                        <p>Alya Hana Natasya</p>
+                        
+                        <p>Jl bukit indah 1 dalam no 6A RT 03 RW 07</p>
+                        
+                        <p>Ciumbuleit</p>
+                        
+                        <p>KOTA BANDUNG-CIDADAP,JAWA BARAT, NO.POS 40142</p>
+                    </div>
+                    
+                </div>
+                
+                <hr>
+                <div class="w3-row w3container">
+                    <div class="w3-col">
+                        <div class="w3-col m1">
+                            <i class="fas fa-book fa-3x"style="margin:28px 0px 0px 40px"></i>
+                        </div>
+                        <div class="w3-col m1">
+                            <p class="label" style="font-size:x-large;">Produk</p>
+                            <img src="asset/Seeking Crystal.jpg" style="height: 150px; width: 100px;"alt="">
+                        </div>
+                        <div class="w3-col m2"style="margin:70px 0px 0px 30px">
+                            <p><a class="detail">Judul <a class="detail" style="margin-left: 10px;">:</a></a> Seeking Crystal</p>
+                            <p><a class="detail">Author :</a> Joss Stirling</p>
+                            <p><a class="detail">Harga <a class="detail"style="margin-left: 8px;">:</a></a> Rp 68.000</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <hr>
                 <div class="w3-row w3-container">
                     <div class="w3-col">
+                        <div class="w3-col m1">
+                            <i class="fas fa-credit-card fa-3x" style="margin:28px 0px 0px 30px"></i>
+                            
+                        </div>
+                        <div class="w3-col m5">
+                            <p class="label" style="font-size:x-large;">Rincian Biaya</p>
+                            <p><a class="detail">Subtotal Produk <a class="detail"style="margin-left: 10px;">:</a></a>Rp 68.000</p>
+                            <p><a class="detail">Biaya Pengiriman :</a>Rp 12.000</p>
+                            <p><a class="detail">Biaya Admin <a class="detail"style="margin-left: 40px;">:</a></a>Rp 2.500</p>
+                            <p><a class="detail">Transfer Bank</a>
+                                <select style="margin:28px 0px 0px 30px ;">
+                                    <option value="a">Bank Central Asia</option>
+                                    <option value="b">Bank Rakyat Indonesia</option>
+                                    <option value="c">Bank Syariah Indonesia</option>
+                                    <option value="d">Bank Negara Indonesia</option>
+                                </select>
+                            </p>
+                        </div>
+                        <div id="kotak">
+                            <div class="w3-col m3">
+                                <p >Total Pembayaran</p>
+                                <button class="w3-margin-top w3-button w3-container btn-beli" onclick="document.location='pin.html'">Buat Pesanan</button>
+                            </div>
+                            <div class="w3-col m2">
+                                <p>Rp 82.000</p>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <!-- <div class="w3-row w3-container">
+                    <div class="w3-col">
+
                         <div class="logo">
                             <div class="w3-col m2 w3-center">
                                 <img href="#"src="asset/bca.png" style="width: 150px;height: 150px;">
         
                             </div>
-                            <div class="w3-col m2 ">
+                            <div class="w3-col m3 ">
                                 <a href="#"class="namaBank"><p >Bank Central Asia</p></a>
                                 
                                 
@@ -94,7 +160,7 @@
                                 <img src="asset/bri.png" style="width: 150px;height: 150px;">
         
                             </div>
-                            <div class="w3-col m2 ">
+                            <div class="w3-col m3 ">
                                 <p  class="namaBank">Bank Rakyat Indonesia</p>
                                 
                             </div>
@@ -105,14 +171,14 @@
                                 <img src="asset/bni.png" style="width: 150px;height: 150px;">
         
                             </div>
-                            <div class="w3-col m2">
+                            <div class="w3-col m3">
                                 <p class="namaBank">Bank Negara Indonesia</p>
                                 
                             </div>
                         </div>
                         
                     </div>
-                </div>
+                </div> -->
             </div>
 
         </div>

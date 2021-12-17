@@ -3,7 +3,8 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
-        <link rel="stylesheet" href="css/styleKeranjangEnglish.css">
+        <link rel="stylesheet" href="css/styleKeranjang.css">
+        
         <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="js/numericBox.js"></script>
     </head>
@@ -12,7 +13,7 @@
         <div id="header">
             <div class="w3-container">
                 <div class="w3-container w3-cell">
-                    <a href="katalog.html"style="text-decoration: none"><h1 id="title">Mica's Book</h1></a>
+                    <a  href="katalogIndo.html"style="text-decoration: none"><h1 id="title">Mica's Book</h1></a>
                 </div>
                 <div class="w3-container w3-cell">
                     <nav id="flag">
@@ -40,42 +41,21 @@
                 <div class="w3-container w3-cell">
                     <nav id="nav2" class="">
                         <a id="iconKeranjang"><i class="fas fa-shopping-cart"></i></a>
-                        <a id="keranjangBelanja">Shopping Cart</a>
-                        <a id="profil">Welcome, Hana</a>
+                        <a id="keranjangBelanja">Keranjang Belanja</a>
+                        <a id="profil">Selamat Datang,Hana</a>
                     </nav>		
                 </div>
             </div>
         </div>
 
-        <div style="" id="kolom">
-            <nav>
-                <a class="w3-padding"><input type="checkbox">Product</a>
-                <a id="hargaSatuan">Price</a>
-                <a id="kuantitas">Quantity</a>
-                <a id="totalHarga">Total Price</a>
-                <a id="aksi">Action</a>
-            </nav>
-        </div>
-
-        <div style="" id="content">
-            <nav>
-                <a class="w3-padding"><input type="checkbox"><img src="asset/Seeking Crystal.jpg"></a>
-                <a id="judulBuku">Seeking Crystal</a>
-                <a id="hargaBuku">Rp 68.000</a>
-                <a id="jumlahBuku" class="quantity buttons_added"><input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="" style="border: 1px solid black;"><input type="button" value="+" class="plus"></a>
-                <a id="totalHargaBuku">Rp 68.000</a>
-                <a href="keranjangBelanjaKosong.html" id="tempatSampah"><i class="far fa-trash-alt"></i></i></a>
-            </nav>
-            
-        </div>
-
-        <div style="" id="foot">
-            <nav>
-                <a id="total">TOTAL</a>
-                <a id="totalProduk">Total (1 product)</a>
-                <a id="totalRp">Rp 100.000</a>
-                <a id="btnCheckout"><button style="background-color: red; color: white; border-color: red;"onclick="document.location='pembayaran.html'">Checkout</button></a>
-            </nav>
+        <div style="" id="kolomKosong">
+            <a id="icon">
+                <i class="fas fa-shopping-basket fa-10x" style="color:rgb(235, 235, 235)"></i>
+                
+            </a>
+            <div id="text">
+                <p>Isi Keranjang Kosong</p>
+            </div>
         </div>
     </body>
 </html>

@@ -87,7 +87,7 @@ body{
 }
 
 #hargaSatuan{
-    margin-left: 400px;
+    margin-left: 460px;
 }
 
 #kuantitas{
@@ -99,7 +99,7 @@ body{
 }
 
 #aksi{
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 #content{
@@ -157,6 +157,24 @@ body{
 
 #btnCheckout{
     margin-left: 55px;
+}
+#kolomKosong{
+    background-color: white;
+    
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 400px;
+}
+#icon{
+    margin: 0px 0px 0px 500px;
+    
+}
+#text{
+    color:rgb(235, 235, 235);
+    margin: 0px 0px 0px 500px;
+    font-size:larger;
 }
 
 /* -- quantity box -- */

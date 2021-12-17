@@ -6,8 +6,60 @@
     margin-top: 50px;
     font-size: large;
     text-decoration: none;
+    margin-top: 30px;
 }
-.namaBank:hover{
-    text-shadow: 1px 2px 1px grey;
+
+.label{
+    color: #4D8581;
+    font-size: larger;
+}
+.detail{
+    color: #4D8581;
+}
+.btn-beli{
+    background-color:#4D8581;
+    color: white;
+    border-radius: 30px;
+    border: solid;
+    font-size: medium;
+    padding: 10px;
+    
+
+}
+
+#kotak{
+    font-size: x-large;
+}
+#judulPembayaran{
     font-size: 20px;
+    margin-left: 6px;
+}
+#profil{
+    color: #4D8581;
+    padding-left: 10px;
+    font-size: large;
+    margin-left: 865px;
+}
+/* pin */
+.salin{
+    background-color:#4D8581;
+    border-radius: 20px;
+    color: white;
+    font-size: medium;
+    padding: 10px;
+    
+}
+.btn-bayar{
+    background-color:#4D8581;
+    border-radius: 20px;
+    color: white;
+    font-size: medium;
+    padding: 10px;
+}
+#pin{
+    font-size: x-large;
+}
+#btn{
+    margin-bottom: 50px;
+
 }
