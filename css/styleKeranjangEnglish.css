@@ -45,7 +45,7 @@ nav{
 }
 
 #header2 #user{
-    margin-left: 1035px;
+    margin-left: 1077px;
 }
 
 input{
@@ -98,19 +98,19 @@ body{
 }
 
 #hargaSatuan{
-    margin-left: 400px;
+    margin-left: 435px;
 }
 
 #kuantitas{
-    margin-left: 100px;
+    margin-left: 147px;
 }
 
 #totalHarga{
-    margin-left: 100px;
+    margin-left: 122px;
 }
 
 #aksi{
-    margin-left: 100px;
+    margin-left: 95px;
 }
 
 #content{
@@ -232,6 +232,3 @@ body{
 .quantity.buttons_added .plus:focus {
     outline: none; 
 }
-
-   
-   
