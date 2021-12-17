@@ -6,47 +6,207 @@
         <link rel="stylesheet" href="css/styleDetail.css">
     </head>
     <body>
-        <!-- header1 -->
-        <div id="header">
-            <div class="w3-container">
-                <div class="w3-container w3-cell">
-                    <h1 id="title">Mica's Book</h1>	
-                </div>
-                <div class="w3-container w3-cell">
-                    <nav id="flag">
-                        <div class="w3-cell">
-                            <div id="nav" class="w3-bar w3-bar-item" >
-                                <a class="link" href="#">
-                                    <img src="asset/England.png" style="width: 35px;height: 20px;">
-                                </a>
-                                <a class="link"href="#">
-                                    <img src="asset/Indonesia.jpg" style="width: 35px;height: 20px;">
-                                </a>
-                                <a class="link"href="#">
-                                    <img src="asset/usa.jpg" style="width: 35px;height: 20px;">
-                                </a>
-                                
+               <!-- header1 -->
+               <div id="header">
+                <div class="w3-container">
+                    <div class="w3-container w3-cell">
+                        <h1 id="title">Mica's Book</h1>	
+                    </div>
+                    <div class="w3-container w3-cell">
+                        <nav id="flag">
+                            <div class="w3-cell">
+                                <div id="nav" class="w3-bar w3-bar-item" >
+                                    <a class="link" href="#">
+                                        <img src="asset/England.png" style="width: 35px;height: 20px;">
+                                    </a>
+                                    <a class="link"href="#">
+                                        <img src="asset/Indonesia.jpg" style="width: 35px;height: 20px;">
+                                    </a>
+                                    <a class="link"href="#">
+                                        <img src="asset/usa.jpg" style="width: 35px;height: 20px;">
+                                    </a>
+                                    
+                                </div>
                             </div>
+                        </nav>		
+                    </div>
+                </div>
+            </div>
+            <!-- header2 -->
+            <div id="header2">
+                <div class="w3-container">
+                    <div class="w3-container w3-cell">
+                        <nav id="nav2" class="">
+                            
+                        c    <a href="#" class=""><i class="fas fa-sort-alpha-down fa-2x"></i></a>
+                            <a  href="sortbyauthor.html" class="sort">By Author</a>
+                            <a class="sort" href="sortbytitle.html">By Title</a>
+                            <a  id="search"><i class="fas fa-search"></i></a>
+                            <a id="searchbar" ><input type="text" placeholder="  Author/Title/ISBN"> </a>
+                            <a id="go"><button class="w3-button w3-tiny w3-teal w3-round-large">Go</button></a>
+                            <a id="keranjang" href="#"><i class="fas fa-shopping-cart fa-2x"></i></a>
+                            
+                            <a id="profil">Welcome, Hana</a>
+                            
+                        </nav>		
+                    </div>
+                    <div>
+                        <a href="#" class="floating-button">
+                            FAQ
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="content w3-row">
+                <div class="w3-col buku" style="width: 25%;">
+                    <img src="asset/Seeking Crystal.jpg" style="height: 400px; width: 300px;"alt="">
+                </div>
+                <div class="w3-col deskripsi" style="width:45%">
+                    <h1>
+                       <b>Seeking Crystal</b> 
+                    </h1>
+                    <hr>
+                    <h3>
+                        Joss Stirling
+                    </h3>
+                    <p>Terjual 10 | <i class="fa fa-star"></i>  4.5/5 | 3 ulasan pembeli </p>
+                    <h2>
+                        <b>
+                            Rp 68.000
+                        </b>
+                    </h2>
+                    <h4>
+                        <b>
+                            Sinopsis
+                        </b>
+                    </h4>
+                    <p id="sinopsis">
+                        Crystal Brook selalu menjadi Savant yang tak berguna di keluarganya; kekuatan paranormal bukan hanya miliknya. Putus sekolah dengan nilai `E` dan tidak memiliki masa depan, dia hidup dalam bayang-bayang saudara perempuannya, Diamond Diamond. Dalam sebuah perjalanan ke Denver, sebuah pertemuan kebetulan dengan saudara-saudara Benediktus yang gagah membuat Diamond jatuh cinta dan bertunangan untuk menikah. Crystal, di sisi lain, tidak terkesan dengan pesona mereka. . . bahkan tidak ada anak laki-laki yang bisa mengganggunya sebanyak Xav Benedict! Kembali di Venesia, keluarga mereka berkumpul untuk pernikahan Diamond dan musuh yang kuat mengambil kesempatan untuk menyerang. Crystal dan Xav harus bergabung untuk menyelamatkan orang-orang yang mereka cintai, membuka rahasia yang, sampai sekarang, telah terkubur dalam-dalam. . .
+                    </p>
+                </div>
+                <div class="detail-3 w3-col" style="width: 30%;">
+                    <div class="w3-container bayar">
+                        <div class="transaksi">
+                            <h3>
+                                Jumlah Barang
+                            </h3>
+                            <div class="adder-minus w3-margin-top w3-margin-bottom">
+                                <i id="tombol-plus" class="fa fa-plus-circle fa-2x"></i>
+                                <span class="w3-margin-left w3-margin-right angka-beli">
+                                    1
+                                </span>
+                                <i id="tombol-min" class="fa fa-minus-circle fa-2x"></i>
+                             <span class="w3-margin-left">
+                                Stok : 9
+                             </span> 
+                            </div>
+                            <div>
+                                <b>
+                                    Subtotal
+                                </b>
+                                <b id="subtotal" class="w3-margin-left">
+                                    Rp 68.000
+                                </b>
+                            </div>
+                            <div>
+                                <div class="w3-margin-top w3-button w3-container btn-keranjang">
+                                   <i class="fas fa-shopping-cart"></i> Keranjang
+                                </div>
+                                <div class="w3-margin-top w3-button w3-container btn-beli">
+                                    Beli Sekarang
+                                </div>
+                            </div>    
                         </div>
-                    </nav>		
-                </div>
-            </div>
-        </div>
-        <!-- header2 -->
-        <div id="header2">
-            <div class="w3-container">
-                <div class="w3-container w3-cell">
-                    <nav id="nav2">
                         
-                        <a href="#" class="w3-bar-item w3-button"><i class="fas fa-sort-alpha-down fa-2x"></i></a>
-                        <a class="space"><input type="checkbox">Author</a>
-                        <a class="space"><input type="checkbox">By Title</a>
-                       <a> <input type="text" name="" id="search" placeholder="Judul Buku / Pengarang" ></a> 
-                       <a href="#" class="w3-bar-item w3-button"><i class="fa fa-shopping-cart fa-2x"></i></a>
-                    </nav>		
+                    </div>
+                    <div class="w3-container w3-row detail2">
+                        <h3>
+                           <b>
+                            Detail
+                           </b> 
+                        </h3>
+                        <div class="w3-col" style="width: 50%">
+                            <h4>
+                               <b>
+                                Jumlah Halaman
+                               </b> 
+                            </h4>
+                            <h4>
+                                288
+                            </h4>
+                            <h4>
+                                <b>
+                                 Tanggal Terbit
+                                </b> 
+                             </h4>
+                             <h4>
+                                 13 Juli 2020
+                             </h4>
+                            
+                             <h4>
+                                <b>
+                                 ISBN
+                                </b> 
+                             </h4>
+                             <h4>
+                                9786230400346
+                             </h4>
+                            
+                             <h4>
+                                <b>
+                                 Bahasa
+                                </b> 
+                             </h4>
+                             <h4>
+                                 Indonesia
+                             </h4>
+                             
+                        </div>
+                        <div class="w3-col" style="width: 50%">
+                                                        
+                            <h4>
+                                <b>
+                                 Penerbit
+                                </b> 
+                             </h4>
+                             <h4>
+                                 Bhuana Ilmu Proper
+                             </h4>
+                                                         
+                             <h4>
+                                <b>
+                                 Berat
+                                </b> 
+                             </h4>
+                             <h4>
+                                 0.22 kg
+                             </h4>
+                                                         
+                             <h4>
+                                <b>
+                                 Lebar
+                                </b> 
+                             </h4>
+                             <h4>
+                                 13.5 cm
+                             </h4>
+                                                         
+                             <h4>
+                                <b>
+                                 Panjang
+                                </b> 
+                             </h4>
+                             <h4>
+                                 20.0 cm
+                             </h4>
+
+                        </div>
+                    </div>
                 </div>
+
             </div>
-        </div>
-        <img src="/asset/No One is Talking About This.jpg" alt="">
+            <div class="coment">
+
+            </div>
     </body>
 </html>
