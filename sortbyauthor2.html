@@ -16,13 +16,13 @@
                     <nav id="flag">
                         <div class="w3-cell">
                             <div id="nav" class="w3-bar w3-bar-item" >
-                                <a class="link" href="#">
+                                <a class="link" href="sortbyauthor2.html">
                                     <img src="asset/England.png" style="width: 35px;height: 20px;">
                                 </a>
-                                <a class="link"href="#">
+                                <a class="link"href="sortauthor2Indo.html">
                                     <img src="asset/Indonesia.jpg" style="width: 35px;height: 20px;">
                                 </a>
-                                <a class="link"href="#">
+                                <a class="link"href="sortbyauthor2.html">
                                     <img src="asset/usa.jpg" style="width: 35px;height: 20px;">
                                 </a>
                                 
@@ -56,6 +56,12 @@
                     </a>
                 </div>
             </div>
+        </div>
+
+        <div class="w3-content w3-section" >
+            <img class="mySlides w3-animate-left" src="asset/1.png" style="width:100%">
+            <img class="mySlides w3-animate-left" src="asset/2.png" style="width:100%">
+            <img class="mySlides w3-animate-left" src="asset/3.png" style="width:100%">
         </div>
 
         <div style="margin-left:10%; width: 85%;" class="">
@@ -142,4 +148,20 @@
             </div>
         </div>
     </body>
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2500);    
+        }
+    </script>
 </html>
