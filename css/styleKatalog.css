@@ -24,10 +24,10 @@ body{
 #title{
     font-family: "Galgony";
     color: ivory;
-    
+    text-decoration: none;
 }
 #flag{
-    margin: 0px 0px 0px 750px;
+    margin: 0px 0px 0px 841px;
     margin-top: 15px;
     
 

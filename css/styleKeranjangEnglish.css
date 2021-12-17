@@ -48,8 +48,9 @@ body{
     color: #4D8581;
     padding-left: 10px;
     font-size: large;
-    margin-left: 825px;
+    margin-left: 861px;
 }
+
 #keranjang{
     margin-left: 70px;
 }
@@ -87,19 +88,19 @@ body{
 }
 
 #hargaSatuan{
-    margin-left: 400px;
+    margin-left: 435px;
 }
 
 #kuantitas{
-    margin-left: 100px;
+    margin-left: 147px;
 }
 
 #totalHarga{
-    margin-left: 100px;
+    margin-left: 122px;
 }
 
 #aksi{
-    margin-left: 100px;
+    margin-left: 95px;
 }
 
 #content{
@@ -221,6 +222,3 @@ body{
 .quantity.buttons_added .plus:focus {
     outline: none; 
 }
-
-   
-   
