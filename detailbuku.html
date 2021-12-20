@@ -4,13 +4,14 @@
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
         <link rel="stylesheet" href="css/styleDetail.css">
+        
     </head>
     <body>
                <!-- header1 -->
                <div id="header">
                 <div class="w3-container">
                     <div class="w3-container w3-cell">
-                        <h1 id="title">Mica's Book</h1>	
+                        <a href="katalogIndo.html"style="text-decoration: none"><h1 id="title">Mica's Book</h1></a>	
                     </div>
                     <div class="w3-container w3-cell">
                         <nav id="flag">
@@ -37,16 +38,9 @@
                 <div class="w3-container">
                     <div class="w3-container w3-cell">
                         <nav id="nav2" class="">
-                            
-                        c    <a href="#" class=""><i class="fas fa-sort-alpha-down fa-2x"></i></a>
-                            <a  href="sortbyauthor.html" class="sort">By Author</a>
-                            <a class="sort" href="sortbytitle.html">By Title</a>
-                            <a  id="search"><i class="fas fa-search"></i></a>
-                            <a id="searchbar" ><input type="text" placeholder="  Author/Title/ISBN"> </a>
-                            <a id="go"><button class="w3-button w3-tiny w3-teal w3-round-large">Go</button></a>
-                            <a id="keranjang" href="#"><i class="fas fa-shopping-cart fa-2x"></i></a>
-                            
-                            <a id="profil">Welcome, Hana</a>
+                            <a><i class="fas fa-book-open fa-2x"></i></a>
+                            <a id="detailBuku">Detail Buku</a>
+                            <a id="profil">Selamat Datang, Hana</a>
                             
                         </nav>		
                     </div>
@@ -81,7 +75,7 @@
                         </b>
                     </h4>
                     <p id="sinopsis">
-                        Crystal Brook selalu menjadi Savant yang tak berguna di keluarganya; kekuatan paranormal bukan hanya miliknya. Putus sekolah dengan nilai `E` dan tidak memiliki masa depan, dia hidup dalam bayang-bayang saudara perempuannya, Diamond Diamond. Dalam sebuah perjalanan ke Denver, sebuah pertemuan kebetulan dengan saudara-saudara Benediktus yang gagah membuat Diamond jatuh cinta dan bertunangan untuk menikah. Crystal, di sisi lain, tidak terkesan dengan pesona mereka. . . bahkan tidak ada anak laki-laki yang bisa mengganggunya sebanyak Xav Benedict! Kembali di Venesia, keluarga mereka berkumpul untuk pernikahan Diamond dan musuh yang kuat mengambil kesempatan untuk menyerang. Crystal dan Xav harus bergabung untuk menyelamatkan orang-orang yang mereka cintai, membuka rahasia yang, sampai sekarang, telah terkubur dalam-dalam. . .
+                        Crystal Brook selalu menjadi Savant yang tak berguna di keluarganya kekuatan paranormal bukan hanya miliknya. Putus sekolah dengan nilai `E` dan tidak memiliki masa depan, dia hidup dalam bayang-bayang saudara perempuannya, Diamond Diamond. Dalam sebuah perjalanan ke Denver, sebuah pertemuan kebetulan dengan saudara-saudara Benediktus yang gagah membuat Diamond jatuh cinta dan bertunangan untuk menikah. Crystal, di sisi lain, tidak terkesan dengan pesona mereka. . . bahkan tidak ada anak laki-laki yang bisa mengganggunya sebanyak Xav Benedict! Kembali di Venesia, keluarga mereka berkumpul untuk pernikahan Diamond dan musuh yang kuat mengambil kesempatan untuk menyerang. Crystal dan Xav harus bergabung untuk menyelamatkan orang-orang yang mereka cintai, membuka rahasia yang, sampai sekarang, telah terkubur dalam-dalam. . .
                     </p>
                 </div>
                 <div class="detail-3 w3-col" style="width: 30%;">
@@ -91,8 +85,8 @@
                                 Jumlah Barang
                             </h3>
                             <div class="adder-minus w3-margin-top w3-margin-bottom">
-                                <i id="tombol-plus" class="fa fa-plus-circle fa-2x"></i>
-                                <span class="w3-margin-left w3-margin-right angka-beli">
+                                <i id="tombol-plus"  class="fa fa-plus-circle fa-2x"></i>
+                                <span class="w3-margin-left w3-margin-right " id="angka-beli">
                                     1
                                 </span>
                                 <i id="tombol-min" class="fa fa-minus-circle fa-2x"></i>
@@ -105,7 +99,8 @@
                                     Subtotal
                                 </b>
                                 <b id="subtotal" class="w3-margin-left">
-                                    Rp 68.000
+                                    
+                                    Rp <span id="angka">68</span>.000
                                 </b>
                             </div>
                             <div>
@@ -209,4 +204,5 @@
 
             </div>
     </body>
+    <script type="text/javascript" src="js/detailBuku.js"></script>
 </html>

@@ -2,8 +2,8 @@
     font-family: "Galgony";
     src: url('../font/Galgony.ttf');
 }
-nav{
-   
+body{
+   background-color: #EEEBE8;
 }
 /* Header1 */
 .link {
@@ -24,10 +24,10 @@ nav{
 #title{
     font-family: "Galgony";
     color: ivory;
-    
+    text-decoration: none;
 }
 #flag{
-    margin: 0px 0px 0px 750px;
+    margin: 0px 0px 0px 841px;
     margin-top: 15px;
     
 
@@ -92,4 +92,9 @@ img {
 
 i {
     color:#4D8581;
+}
+.sort:hover {
+    color: ivory;
+  border-bottom: 1px solid #ffffff;
+  padding: 1px 0; 
 }

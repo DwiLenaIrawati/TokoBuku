@@ -25,7 +25,7 @@
     
 }
 #flag{
-    margin: 0px 0px 0px 750px;
+    margin: 0px 0px 0px 841px;
     margin-top: 15px;
     
 
@@ -60,7 +60,7 @@ input{
     color: #4D8581;
     padding-left: 10px;
     font-size: large;
-    margin-left: 80px;
+    margin-left: 865px;
 }
 .sort{
    text-decoration: none;
@@ -145,4 +145,8 @@ i {
 }
 #sinopsis{
     text-align: justify;
+}
+#detailBuku{
+    font-size: 20px;
+    margin-left: 20px;
 }

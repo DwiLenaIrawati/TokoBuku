@@ -10,19 +10,19 @@
         <div id="header">
             <div class="w3-container">
                 <div class="w3-container w3-cell">
-                    <h1 id="title">Mica's Book</h1>	
+                    <a href="katalog.html"style="text-decoration: none"><h1 id="title">Mica's Book</h1></a>
                 </div>
                 <div class="w3-container w3-cell">
                     <nav id="flag">
                         <div class="w3-cell">
                             <div id="nav" class="w3-bar w3-bar-item" >
-                                <a class="link" href="#">
+                                <a class="link" href="sortbytitle.html">
                                     <img src="asset/England.png" style="width: 35px;height: 20px;">
                                 </a>
-                                <a class="link"href="#">
+                                <a class="link" href="sorttitleIndo.html">
                                     <img src="asset/Indonesia.jpg" style="width: 35px;height: 20px;">
                                 </a>
-                                <a class="link"href="#">
+                                <a class="link"href="sortbytitle.html">
                                     <img src="asset/usa.jpg" style="width: 35px;height: 20px;">
                                 </a>
                                 
@@ -44,18 +44,24 @@
                         <a  id="search"><i class="fas fa-search"></i></a>
                         <a id="searchbar" ><input type="text" placeholder="  Author/Title/ISBN"> </a>
                         <a id="go"><button class="w3-button w3-tiny w3-teal w3-round-large">Go</button></a>
-                        <a id="keranjang" href="#"><i class="fas fa-shopping-cart fa-2x"></i></a>
+                        <a id="keranjang" href="keranjangBelanja-english.html"><i class="fas fa-shopping-cart fa-2x"></i></a>
                         
                         <a id="profil">Welcome, Hana</a>
                         
                     </nav>		
                 </div>
                 <div>
-                    <a href="#" class="floating-button">
+                    <a href="faq-english.html" class="floating-button">
                         FAQ
                     </a>
                 </div>
             </div>
+        </div>
+
+        <div class="w3-content w3-section" >
+            <img class="mySlides w3-animate-left" src="asset/1.png" style="width:100%">
+            <img class="mySlides w3-animate-left" src="asset/2.png" style="width:100%">
+            <img class="mySlides w3-animate-left" src="asset/3.png" style="width:100%">
         </div>
 
         <div style="margin-left:10%; width: 85%;" class="">
@@ -147,4 +153,20 @@
             </div>
         </div>
     </body>
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2500);    
+        }
+    </script>
 </html>
