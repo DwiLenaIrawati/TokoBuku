@@ -150,3 +150,10 @@ i {
     font-size: 20px;
     margin-left: 20px;
 }
+#review{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#reviewUser{
+    text-align: justify;
+}
