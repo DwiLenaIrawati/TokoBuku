@@ -59,12 +59,33 @@
 
         <div style="" id="content">
             <nav>
-                <a class="w3-padding"><input type="checkbox"><img src="asset/Educated.jpg"></a>
-                <a id="judulBuku">Educated</a>
-                <a id="hargaBuku">Rp 100.000</a>
+                <a class="w3-padding"><input type="checkbox"><img src="asset/Seeking Crystal.jpg"></a>
+                <a id="judulBuku">Seeking Crystal</a>
+                <a id="hargaBuku">Rp 68.000</a>
                 <a id="jumlahBuku" class="quantity buttons_added"><input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="" style="border: 1px solid black;"><input type="button" value="+" class="plus"></a>
-                <a id="totalHargaBuku">Rp 100.000</a>
-                <a id="tempatSampah"><i class="far fa-trash-alt"></i></i></a>
+                <a id="totalHargaBuku">Rp 68.000</a>
+                <!-- <a id="tempatSampah"><i class="far fa-trash-alt"></i></i></a> -->
+                <button onclick="document.getElementById('id01').style.display='block'" id="tempatSampah"><i class="far fa-trash-alt"></i></button>
+                    
+                    <div id="id01" class="w3-modal" >
+                        <div class="w3-modal-content w3-card-4">
+                          <header class="w3-container w3-teal"> 
+                            <span onclick="document.getElementById('id01').style.display='none'" 
+                            class="w3-button w3-display-topright">&times;</span>
+                            <br></br>
+                          </header>
+                          <div class="w3-container">
+                              
+                            <center><p>Do you want to delete this product?</p>
+                                <button class="w3-button w3-teal" onclick="document.location='keranjangBelanja.html'">No</button>
+                                <button class="w3-button w3-red" onclick="document.location='keranjangBelanjaKosong.html'" style="margin-left: 70px;">Yes</button>
+                            </center>
+                           
+                            <br></br>
+                          </div>
+                          
+                        </div>
+                    </div>
             </nav>
         </div>
 
@@ -72,8 +93,8 @@
             <nav>
                 <a id="total">TOTAL</a>
                 <a id="totalProduk">Total (1 product)</a>
-                <a id="totalRp">Rp 100.000</a>
-                <a id="btnCheckout"><button style="background-color: red; color: white; border-color: red;">Checkout</button></a>
+                <a id="totalRp">Rp 68.000</a>
+                <a id="btnCheckout"><button style="background-color: red; color: white; border-color: red;" onclick="document.location='pembayaran-english.html'">Checkout</button></a>
             </nav>
         </div>
     </body>
